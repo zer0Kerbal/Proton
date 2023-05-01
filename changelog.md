@@ -5,8 +5,8 @@
 | license    | CC-BY-ND-4.0                                                      |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/) |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)                    |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)                  |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/Proton)                    |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/Proton)                  |
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
@@ -57,9 +57,9 @@
 ### Status 4.0.98.2
 
 * Issues
-  * closes #35 - MIR (MIR) 4.0.98.0-alpha `<Alpha 0>`
-  * closes #36 - MIR (MIR) 4.0.98.1-alpha `<Alpha 1>`
-  * closes #40 - MIR (MIR) 4.0.98.2-beta `<Beta 0>`
+  * closes #35 - Proton (PROTON) 4.0.98.0-alpha `<Alpha 0>`
+  * closes #36 - Proton (PROTON) 4.0.98.1-alpha `<Alpha 1>`
+  * closes #40 - Proton (PROTON) 4.0.98.2-beta `<Beta 0>`
 
 ---
 
@@ -115,7 +115,7 @@
 * IVA
   * Filename
     * <Internal.cfg> --> <MIR-TKS-internal.cfg>
-  * actually deactivate Spaces/MIR-core-internal/PropConfig.cfg
+  * actually deactivate Spaces/Proton-core-internal/PropConfig.cfg
   Name
     * MIR_TKS_internal --> MIR-TKS-internal
     * update pointers in six parts
