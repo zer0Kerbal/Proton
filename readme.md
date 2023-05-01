@@ -15,7 +15,6 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 # [Proton (PROTON)][CURSFG:url]
 
-
 ## By [`zer0Kerbal`][zer0Kerbal], originally by [BobCat][auth-link]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
@@ -184,20 +183,19 @@ Comment, click, like, share, up-vote, subscribe
 [![Support][PAYPAL:img]][PAYPAL:url] [![Patreon][PATREON:img]][PATREON:url]
 
 <!-- links -->
+[assmb]: https://zer0kerbal.github.io/Proton/Assembly "Assembly Guide"
 [attrb]: https://zer0kerbal.github.io/Proton/Attributions "Attribution"
 [chlog]: https://raw.githubusercontent.com/zer0Kerbal/Proton/master/changelog.md  "Changelog"
 [discu]: https://github.com/zer0Kerbal/Proton/discussions "Discussions"
 [forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/ "MIR Forum Thread"
 [issue]: https://github.com/zer0Kerbal/Proton/issues "Issues"
-[assmb]: https://zer0kerbal.github.io/Proton/Assembly "Assembly Guide"
 [markt]: https://zer0kerbal.github.io/Proton/Marketing "Marketing Slicks"
 [notic]: https://zer0kerbal.github.io/Proton/Notices "Notices"
-[parts]: https://zer0kerbal.github.io/Proton/PartsCatalog "Parts Catalog"
 [pages]: https://zer0kerbal.github.io/Proton "GitHub Pages"
+[parts]: https://zer0kerbal.github.io/Proton/PartsCatalog "Parts Catalog"
 
 <!--- mod -->
 [SHD:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Proton/master/json/mod.json
-
 [SHD:pgs]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
