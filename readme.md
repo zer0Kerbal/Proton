@@ -1,129 +1,136 @@
-<!-- readme.md v1.6.9.7
-MIR (MIR)
+<!-- readme.md v1.9.1.1
+Proton (PROTON)
+created: 01 Jun 2014
+updated: 01 May 2023
+
+TEMPLATE: readme.md v1.7.2.1
 created: 17 Jul 2017
-updated: 04 Sep 2022 -->
+updated: 15 Apr 2023
 
-<!--THIS FILE: CC BY-ND 4.0 by zer0Kerbal-->
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
-[![MIR][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
-[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][ckan:shd]][ckan:url]   
-[![Pages][MOD:pages:shd]][MOD:pages]
+[![Proton (PROTON)][SHD:mod]][CURSFG:url]  
+[![KSP version][KSP:shd]][KSP:url] [![License][LIC:shd]][LIC:url]  
+[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
+
+# [Proton (PROTON)][CURSFG:url]
 
 
-
-# MIR Space Station (MIR)
-
-The Soviet Space Station MIR for Kerbal Space Program.
-
-## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [`DECQ`][decq] and [Dragon01][dragon01]
+## By [`zer0Kerbal`][zer0Kerbal], originally by [BobCat][auth-link]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
-<img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/img/HeroLogo_1920x1920.png" alt="MIR Hero" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/img/HeroLogo_1920x1920.png" alt="MIR Hero" width="50%" height="50%">
 
-### Features by [BobCat][bobcat]
+### Features by [BobCat][auth-link]
 
-* Modular space station
-  * MIR Core module with living quarters, six docking ports and a detailed IVA.
-  * Kvant-1 Astrophysics module with an X-ray experiment and a docking port.
-  * FSM space tug for delivering Kvant 1 to the station.
-  * Kvant-2 physics module with an airlock.
-  * Kristall docking module with two additional docking ports.
-  * Spektr power module with 4 solar panels.
-  * Priroda Kerbin observation module with a big Travers antenna.
-  * Docking Compartment for improving docking clearance. By Blista100, used with permission.
-  * Zarya FGB with high fuel load and RCS configured for flying with Unity module attached.
-  * Zvezda service module (MIR Core variant) with 4 docking ports.
-  * New solar panels and an ISS-style docking port.
+* Simple rocket, no plugins, good lifting capability.
+* Low memory usage.
+* Able to lift all MIR modules to LKO with little hassle.
+* Low fidelity model, but easy on performance.
 
-### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Mir)
+### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Proton_(rocket_family))
 
-> ***Mir*** ([Russian](https://en.wikipedia.org/wiki/Russian_language): Мир, IPA: [[ˈmʲir\]](https://en.wikipedia.org/wiki/Help:IPA/Russian); lit. 'peace' or 'world') was a [space station](https://en.wikipedia.org/wiki/Space_station) that operated in [low Earth orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) from 1986 to 2001, operated by the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union) and later by [Russia](https://en.wikipedia.org/wiki/Russia). *Mir* was the first modular space station and was assembled in orbit from 1986 to 1996. It had a greater mass than any previous [spacecraft](https://en.wikipedia.org/wiki/Spacecraft). At the time it was the largest [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) in orbit, succeeded by the [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station) (ISS) after *Mir*'s [orbit decayed](https://en.wikipedia.org/wiki/Orbital_decay).
-
----
+> ***Proton*** Протон, IPA: [prɐˈton] (formal designation: UR-500) is an expendable launch system used for both commercial and Russian government space launches. The first Proton rocket was launched in 1965. Modern versions of the launch system are still in use as of 2022, making it one of the most successful heavy boosters in the history of spaceflight. The components of all Protons are manufactured at the Khrunichev State Research and Production Space Center factory in Moscow and Chemical Automatics Design Bureau in Voronezh, then transported to the Baikonur Cosmodrome, where they are assembled at Site 91 to form the launch vehicle. Following payload integration, the rocket is then brought to the launch pad horizontally by rail, and raised into vertical position for launch.
+>
+> As with many Soviet rockets, the names of recurring payloads became associated with the launch vehicle itself. The moniker "Proton" originates from a series of similarly named scientific satellites, which were among the rocket's first payloads. During the Cold War, it was designated the D-1/D-1e or SL-12/SL-13 by Western intelligence agencies.
+>
+> Launch capacity to low Earth orbit is about 22.8 tonnes (50,000 lb). Geostationary transfer capacity is about 6.3 tonnes (14,000 lb). Commercial launches are marketed by International Launch Services (ILS).
+>
+> In 2013, the rocket was intended to be retired before 2030.
+>
+> As of June 2018, production on the Proton rocket is ceasing as the new Angara launch vehicle comes on line and becomes operational. No new launch service contracts for Proton are likely to be signed.
 
 ### See more
 
->* [GitHub Pages][MOD:pages]
->* [Marketing Slicks][MOD:markt]
->* [Parts Catalog][MOD:parts] for part pictures
->* [Discussions][MOD:discu] or [KSP Forums][MOD:forum] for discussions and news on this mod
->* [ChangeLog][MOD:chlog] for more details of changes
->* [Known Issues][MOD:issue] for more details of feature requests and known issues
+>* [Wiki: Proton](https://en.wikipedia.org/wiki/Proton_(rocket_family))
+>* [GitHub Pages][pages]
+>* [Marketing Slicks][markt]
+>* [Parts Catalog][parts] for part pictures
+>* [Discussions][discu] or [forums][forum] for discussions and news on this mod
+>* [ChangeLog][chlog] for more details of changes
+>* [Known Issues][issue] for more details of feature requests and known issues
 
 ### Help Wanted
 
-> * ***Solar panels:*** suncatcher and suntracking
 > * Compatibility patches
 > * Contracts for these glorious parts
-> * Variant Textures
-> * Converting from FireSpitter to Stock and/or KSPWheel  
-> * Model updates to Unity 2019
-> * Marketing Images and Videos such as hero shots, animated gifs, short highlight
-> * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
-
-* Release Schedule
-
-1. GitHub, reaching first manual installers and users of KSP-AVC.
-2. CurseForge. Right now.
-3. SpaceDock (and CKAN users). Soon™
-
----
+> * Sample crafts/subassemblies
+> * Variant textures and model updates (add/improve: lights, iva, hatches et al)
+> * Marketing Images and Videos such as hero shots, animated gifs, short highlights
+> * Translations: See the [README in the Localization folder][lreadme] for instructions for adding or improving translations. There is also the [quickstart guide][qstart]. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
+> * Have a request? Glad to have them, kindly submit through [GitHub][issue].
 
 ### Localization
 
 >* ![English][EN] English
 >* ***your translation here***
->
-> HELP WANTED - See the [README in the Localization folder][lreadme] or the [Quickstart Guide][qstart] for instructions for adding or improving translations. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
-
----
 
 ### Installation Directions
 
-***Use***
-  CurseForge/OverWolf App (currently does not install dependencies)  
+Most recent releases only available via CurseForge/OverWolf Website/App
 
-  <a href="https://download.curseforge.com/">
-    <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
-</a>
-
-or [![CKAN][ckan:img]][ckan:url]
+<a href="https://download.curseforge.com/"><img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" height="100px"></a>
 
 ### Dependencies
 
-* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
-* [BobCatInd][BOBCATIND] addons
+* [BobCat Industires (BOB)][BOB]
+* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][SHD:ksp]][KSP:url]
 
-### Suggests
 
-* [On Demand Fuel Cells (ODFC)][ODFC]
-* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
-* [TweakScale][twk]
+### Recommends
 
-#### [BobCatInd][BOBCATIND] addons
-
-* The collection of [BobCat Industries][BOBCATIND]
+* The collection of [BobCat Industries (BOB)][BOB]
   * [Soviet Engines][SOVIETENGINES]
   * Soviet Pack
     * [Buran][BURAN]
     * [Kliper][KLIPER]
     * [Lunokchod1][LUNOKCHOD1]
-    * [MIR][MIR]
+    * [Мир (MIR)][MIR]
     * [N1L3][N1L3]
     * [Progress][PROGRESS]
-    * [Proton][PROTON]
+    * [Proton (Proton)][PROTON]
     * [Soyuz][SOYUZ]
     * [SoyuzU][SOYUZU]
   * [JoolV][JOOLV]
   * [Nautilus][NAUTILUS]
   * [HOME][HOME]
 
+### Suggests
+
+* [Adjustable Mod Panel (KAMP)][KAMP]
+* [Biomatic (BIO)][BIO]
+* [Drop Tanks (DROP)][DROP]
+* [Drop Tanks III (DTIII)][DTIII]
+* [Exception Detector (EXCD)][EXCD]
+* [Field Training Facility (FTF)][FTF]
+* [Field Training Lab (FTL)][FTL]
+* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
+* [Kaboom! (BOOM)][BOOM]
+* [Mkerb Science Instruments][MSI]
+* [MoarKerbals (MOAR)][MOAR]
+* [OhScrap! (OHS)][OHS]
+* [On Demand Fuel Cells (ODFC)][ODFC]
+* [OScience Laboratories (OSL)][OSL]
+* [Papa Kerballini's Pizza (PIZZA)][PIZZA]
+* [Precise Maneuver (PM)][PM]
+* [Pteron (MSRV)][MSRV]
+* [ScrapYard (SYD)][SYD]
+* [SimpleConstruction! (SCON)][SCON]
+* [SimpleLogistics! (SLOG)][SLOG]
+* [SimpleNotes! (NOTE)][NOTES]
+* [Solar Science (SOL)][SOL]
+* [Stack Inline Lights (SIL)][SIL]
+
+* [Kerbal Attachment System (KAS)][kas]
+* [Kerbal Inventory System (KIS)][kis]
+* [RemoteTech (RT)][rt]
+* [TweakScale (twk)][twk]
+* [Universal Storage (us)][us]
+
 ### Supports
 
-* Either
-  * [Module Manager /L][mml]
-  * [Module Manager][mm]
+* [ModularManagement (MM)][MM] or [Module Manager][m-m]
 * [Firespitter][fs] for fuel and mesh switching. may invoke bouts of dizziness.
 
 ### Tags
@@ -139,67 +146,63 @@ parts, config
 
 ### Credits and Special Thanks
 
-* [DECQ][decq] and [Dragon01][dragon01] for creating this glorious parts addon!
-* see [Attribution.md][MOD:attr] for more
+* [BobCat][auth-link] for creating this glorious parts addon!
+* [DECQ][decq] and [Dragon01][dragon01] for continuing (and others)
+* see [Attribution][attrb] for more
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Current (3) - [Sampa][sampa] and [`zer0Kerbal`][zer0Kerbal]
+#### Author (2) - [`zer0Kerbal`][zer0Kerbal]
 
-> Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
-> License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
->
-> ##### Disclaimer(s)
->
-> ***All bundled mods are distributed under their own licenses***  
-> ***All assets, including but not limited to: animations, models, sounds and textures are distributed under their own licenses***
-
-##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
-
-#### Original (2) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
-
-> Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:dnload] - Source: [GitHub][MOD:2:source]  
-> License: [![License][LIC:2:shd]][LIC:2:url] ![License][LIC:2:log]
->
-> [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3802379) "Do what you want with him."
->
-> [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
+> Forum: [Thread][forum] - Source: [GitHub][GITHUB:url]  
+> License: [![License][LIC:shd]][LIC:url]
 
 #### Original (1) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
 > Forum: [Thread][MOD:1:thread] - Download: [Dropbox][MOD:1:dnload] - Source: [Dropbox][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url]
->
-> This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/) with permission.
->
 
 #### Original (0) - Author: [`BobCat`][bobcat]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Wayback Machine][MOD:0:dnload] - Source: [Wayback Machine][MOD:0:source]  
-> License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
->
-> [BobCat Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
+> License: [![License][LIC:0:shd]][LIC:0:url]
 
-<!-- mod links -->
-[MOD:attr]: https://zer0kerbal.github.io/MIR/Attributions "Attribution"
-[MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/MIR/master/changelog.md  "Changelog"
-[MOD:discu]: https://github.com/zer0Kerbal/MIR/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/ "MIR Forum Thread"
-[MOD:issue]: https://github.com/zer0Kerbal/MIR/issues "Issues"
-[MOD:assmb]: https://zer0kerbal.github.io/MIR/Assembly "Assembly Guide"
-[MOD:markt]: https://zer0kerbal.github.io/MIR/Marketing "Marketing Slicks"
-[MOD:notic]: https://zer0kerbal.github.io/MIR/Notices "Notices"
-[MOD:parts]: https://zer0kerbal.github.io/MIR/PartsCatalog "Parts Catalog"
-[MOD:pages]: https://zer0kerbal.github.io/MIR "GitHub Pages"
+#### Disclaimer(s)
+>
+>* ***All bundled mods are distributed under their own licenses***  
+>* ***All assets, including but not limited to: animations, models, sounds and textures are distributed under their own licenses. [![License][LIC:sp:shd]][LIC:sp:url]***
+>
+>* see [Notices][notic] for more *legal Mumbo Jumbo*
+
+### How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]
+
+Comment, click, like, share, up-vote, subscribe
+
+> ***Completely voluntary, absolutely amazing, and really does help me out a lot!***  
+> *and it is true.*
+
+[![Support][PAYPAL:img]][PAYPAL:url] [![Patreon][PATREON:img]][PATREON:url]
+
+<!-- links -->
+[attrb]: https://zer0kerbal.github.io/Proton/Attributions "Attribution"
+[chlog]: https://raw.githubusercontent.com/zer0Kerbal/Proton/master/changelog.md  "Changelog"
+[discu]: https://github.com/zer0Kerbal/Proton/discussions "Discussions"
+[forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/ "MIR Forum Thread"
+[issue]: https://github.com/zer0Kerbal/Proton/issues "Issues"
+[assmb]: https://zer0kerbal.github.io/Proton/Assembly "Assembly Guide"
+[markt]: https://zer0kerbal.github.io/Proton/Marketing "Marketing Slicks"
+[notic]: https://zer0kerbal.github.io/Proton/Notices "Notices"
+[parts]: https://zer0kerbal.github.io/Proton/PartsCatalog "Parts Catalog"
+[pages]: https://zer0kerbal.github.io/Proton "GitHub Pages"
 
 <!--- mod -->
-[MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/mod.json
+[SHD:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Proton/master/json/mod.json
 
-[MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
+[SHD:pgs]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:2:dnload]: https://www.curseforge.com/kerbal/ksp-mods/MIR "CurseForge"
-[MOD:2:source]: https://github.com/zer0Kerbal/MIR/ "GitHub"
+[MOD:2:dnload]: https://www.curseforge.com/kerbal/ksp-mods/Proton "CurseForge"
+[MOD:2:source]: https://github.com/zer0Kerbal/Proton/ "GitHub"
 [MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
 
 [MOD:1:dnload]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
@@ -224,18 +227,18 @@ parts, config
 
 [LIC:url]: https://creativecommons.org/licenses/by-nd/4.0/ "CC BY-ND 4.0"
 [LIC:log]: https://licensebuttons.net/i/l/by-nd/transparent/33/66/99/76x22.png "CC BY-ND 4.0"
-[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/license.json "CC BY-ND 4.0"
+[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Proton/master/json/license.json "CC BY-ND 4.0"
 
 <!--- CKAN -->
 [ckan:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
 [ckan:url]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/ "CKAN"
-[ckan:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/ckan.json "CKAN"
+[ckan:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Proton/master/json/ckan.json "CKAN"
 
 <!--- release links -->
-[CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/MIR "Curseforge"
+[CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/Proton "Curseforge"
 [CURSFG:shd]: https://img.shields.io/badge/CurseForge-Link-CCFF00.svg?labelColor=6441A4&style=plastic&logo=curseforge "Curseforge"
 
-[GITHUB:url]: https://github.com/zer0Kerbal/MIR/ "GitHub"
+[GITHUB:url]: https://github.com/zer0Kerbal/Proton/ "GitHub"
 [GITHUB:shd]: https://img.shields.io/badge/Github-Link-CCFF00.svg?labelColor=181717&style=plastic&logo=github "GitHub"
 
 [SPCDCK:url]: http://spacedock.info/mod/3115 "SpaceDock"
@@ -243,7 +246,7 @@ parts, config
 
 <!-- Kerbal Space Program -->
 [KSP:url]: https://kerbalspaceprogram.com/ "Kerbal Space Program"
-[KSP:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/ksp.json&logo=data:image/webp;base64,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 "Kerbal Space Program"
+[KSP:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Proton/master/json/ksp.json&logo=data:image/webp;base64,UklGRpAGAABXRUJQVlA4TIQGAAAvH8AHEE0obNsGDakwXkT/Q4chj76jn1yYjSRjH6H+6xQqRUkkSc5ckHD+NUUVhx4+RNu2bTTl/3OTVhD6H8u6fF8dDYm40CK7N0CjAxK52rYtjfQRAvGNjbu7V+vuLp2fwhzA6gG4li6de+nuO+4uJBlkwoTA//90kENgtZZs27ZpO2Oufa5vbNsq2Sw6qaa9r3n/kZJTex/wSrFt27o62kuSJNuqrdTa1+/7uLu7uzQZAk0mRN/mAz2CAbi723vvy5WztxxIAAiw+dh2bdvWZJuT12y1bdu2bdu2bbs3AQABlsED+y50lDqLE4pf/Uxe8KO77HFes9hvxu1p3O2Q09LVg0NVjo7Z5U6AvwBSOfivKdQTujOnXNG8hzNhqYSMMHJ+MwWWyTSjNUoP1jWHp1ZNmgB8TMH3Tl33mvoVb8uIj3umyIJLsAmYoCIqUCVMCN5WrW78Qi+AkeaGOkWFk3QbRmIWHpIZSURXDxhJVlJiYZ6kLEgeEjIRCBmxebhCTWlTJNaXLystGysVToPOAFJJjqSPNOXftSVbXPQjxrzVaFNzXvBonWJlonIVTJabAfjZ0Jxufl5GPntEHKjB7PIXtg6eYHywJn3hTdijjXUain94KjfCfg1hM3AZRR4N16VMXBrsDVYDCjOIMmGFsAab8rdY7+kIw0BgtRgL1DKJeuNZdQ9f5RAGGfOQfZxexj7t37RkjNp4rPDIHOJVyPBF+XHKsnQk4SWRBl8Wot74WtkBqidQggbyj2vW1WEFG6JfUZ8UxhVzOmAUdKTYZ3yxR2QwIIAQdA9YgiRBZWyCguiOER9y9IauiyGqR0EayVLiEVwmXmF5+Z2jfohj8i1q8ybRahCBAXZBCBUqLgAACQFzp5M/o5wzCDcCJZEOF9EzggM7NEd18c1Q85gPBldtg6mwB1N+hzyTSFp5jWM+WpCRBEBAjIaUxJI80o3s6vDYJ7gNXuAUfOacvsLvLhNIMaMwh8GccsXjtuiK+wkxZ/kVdOCzoCeAOn+N7H1rU1YT35MgAWY9yD5wMWI7j7G976bSh8LxDx2jI3IJRAnJ+RQQIU7gABnLd3vKSyMAd71mq7HgV3AJ+Sxh5Bz5O0z/gbTiNT8DxQssrrv7Uyx9Y7q6BQVUoIGonF/FfoC/RqwVHlviCRSABDvLaCUfZlz1cNENn6adNTz+AF8v8KWQAFL+QMkpCthFkpvvq7+2/to6AIBhyvPdrUr3g1XwBEJPMeP/98SxWWvs3nHIhgNnsY1RWVyw+Guh5IZLgj9WzPi/iEk9gPPGLAni3aRlsqlGQ9jP4z9Q/s/xi3dw486abm6Bqi2l3qu9e9tQsdVMdG4zbVYqp5wJcBSA2W6sNmkwxuNk+nw3r4MFi/4EkTAhiRFk70jkqNDiWbDK65OLIn0s0wD/ucAp3XwVSsSNBAqjFUIXwFE0MihZQ6utQYV2oR+tShO7Ad6bswY3xd7qe0VrVxK9ZjueQy4TPnF8MCQGjoxSugSFgFMV4LiVwgsn/i+gXZ2FzplAduxnn0/OlW0uqf+M64MRPqzwrl+PnpKQSaXS49Ui7n2/ctFtHtAtiprzxq6WniwESvW5yUG1Xx6/8Hx8NKELwKZK15pV/EvXvm9ZMlx0aKUO98iUPaWvst/n8ZbOmkvGhcOQRWf5zj9dk9cfpad5oHN3Rns/wsuvy2puxz1Ziu96Q7/SOWoROzvNzFo5Z5+1BDej3OjQ/XymEkW9jr0em5g5SdX8VC2gf9xJb/RWCC5bIKWDgWcYf+K9Kje3zbQBh/F448wMLoICeUyJ330nXlPmawiRT/sblG4vWrbErgQaMzYbZcwbhSaNrwH+Tqa04jqrd3JZTvwbFxHFSVMAv5UZdEq+tQUupcis/5+MZNsxk9b8TPa7cMqdzzrh9FtD5v+vPACvJy7nDT69IP/Yx6EywGdTFsD5iU7bqkovJogzTjQm3iFTyp4jV4bjVKdcnv5/JrhokmpnGAIA4D/AXYCfVgoBXnrDkCqqCHRG529HeYB51Jy1z6nlW/gnVmzyxmVHxnQrxXxelcI0yN85udPl+//t2rzKzA+oluPTNjp6qY1PVduFVdo8ya+8E6p8KOZR+bLj6Vju9oi5dar0erTS8Z1x3/IITU3vyDRLiZWBZVH6CbqURTeLptD3pEPIR4W4QlHfTnRJzZBRJ8MlI8LmmEXLAdAxsqIYbSDGTt65GfF0cUL6aQQ= "Kerbal Space Program"
 
 <!-- links to add-ons/mods -->
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
@@ -312,6 +315,6 @@ parts, config
 
 #### Track Progress
 
-* [issues][MOD:issue]
-* [projects](https://github.com/zer0Kerbal/MIR/projects/)
-* [releases](https://github.com/zer0Kerbal/MIR/releases/)
+* [issues][issue]
+* [projects](https://github.com/zer0Kerbal/Proton/projects/)
+* [releases](https://github.com/zer0Kerbal/Proton/releases/)
