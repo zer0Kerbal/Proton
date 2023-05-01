@@ -7,7 +7,7 @@ tags: attributions,thank-you,directions,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 Attributions.md v1.0.7.1
-MIR (MIR)
+Proton (PROTON)
 created: 01 Feb 2022
 updated: 03 Jun 2022
 -->
@@ -15,7 +15,7 @@ updated: 03 Jun 2022
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa fa-gear fa-spin fa-3x" style="color: firebrick"></i>
 
-# MIR (MIR)
+# Proton (PROTON)
 
 [Home](./index.md)
 
@@ -60,7 +60,7 @@ updated: 03 Jun 2022
 
 * Flags
 * Mir_insignia.svg.png
-  * https://en.wikipedia.org/wiki/Mir#/media/File:Mir_insignia.svg
+  * https://en.wikipedia.org/wiki/Proton_(rocket_family)#/media/File:Mir_insignia.svg
   * [Public Domain](https://commons.wikimedia.org/wiki/File:Mir_insignia.svg)
 
 ### Testing and Support
