@@ -6,13 +6,13 @@ tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
 <!-- ManualInstallation.md v1.1.8.1
-MIR (MIR)
+Proton (PROTON)
 created: 01 Oct 2019
 updated: 29 Jul 2022 -->
 
 <!-- based upon work by Lisias -->
 
-# MIR (MIR)
+# Proton (PROTON)
 
 [Home](./index.md)
 
@@ -29,22 +29,22 @@ You should be all good! (check for latest version on CurseForge)
 To install, place the `MIR` folder inside your Kerbal Space Program's GameData folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
-  * Delete `<KSP_ROOT>/GameData/MIR`
+  * Delete `<KSP_ROOT>/GameData/Proton`
 * Extract the package's `MIR/` folder into your KSP's GameData folder as follows:
-  * `<PACKAGE>/MIR` --> `<KSP_ROOT>/GameData`
+  * `<PACKAGE>/Proton` --> `<KSP_ROOT>/GameData`
     * Overwrite any preexisting folder/file(s).
-  * you should end up with `<KSP_ROOT>/GameData/MIR`
+  * you should end up with `<KSP_ROOT>/GameData/Proton`
 
 ### If Downloaded from SpaceDock / GitHub / other
 
 To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
-  * Delete `<KSP_ROOT>/GameData/MIR`
+  * Delete `<KSP_ROOT>/GameData/Proton`
 * Extract the package's `GameData` folder into your KSP's root folder as follows:
   * `<PACKAGE>/GameData` --> `<KSP_ROOT>`
     * Overwrite any preexisting file.
-  * you should end up with `<KSP_ROOT>/GameData/MIR`
+  * you should end up with `<KSP_ROOT>/GameData/Proton`
 
 ## The following file layout must be present after installation
 
