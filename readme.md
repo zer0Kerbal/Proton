@@ -15,7 +15,7 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 # [Протон (Proton)][CURSFG:url]
 
-Soviet Протон (Proton) expendable launch system
+Soviet Протон (Proton) expendable launch system/delivery vehicle (35 ton LKO)
 
 ## By [`zer0Kerbal`][zer0Kerbal], originally by [BobCat][auth-link]
 
