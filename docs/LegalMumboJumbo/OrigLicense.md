@@ -1,11 +1,13 @@
 ---
-permalink: /License.html
+permalink: /Original License.html
 title: License: CC BY-NC-ND 3.0 Unported
 ---
 
 [Creative Commons](https://creativecommons.org/)
 
-# 
+# [CC BY-NC-ND 3.0 Unported+ARR](https://creativecommons.org/licenses/by-nd/4.0/legalcode.txt)
+
+![CC](https://creativecommons.org/images/deed/svg/cc_blue.svg) ![Attribution](https://creativecommons.org/images/deed/svg/attribution_icon_blue.svg) ![NoDerivatives](https://creativecommons.org/images/deed/svg/nd_blue.svg)
 
 ## Attribution-NonCommercial-NoDerivs 3.0 Unported
 
