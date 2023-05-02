@@ -23,14 +23,6 @@
 
 * Issues
 
-
-### Status 0.4.0.0
-
-
----
-
-## Version 1.5A
-
 ---
 
 ## Version 3.0.0.0-release `<Archival>` edition
@@ -40,6 +32,8 @@
   * for Kerbal Space Program
 
 * Issues
+  * closes #14 - 3.0.0.0-release
+  * closes #7 - Archival Releases
 
 ---
 
@@ -50,9 +44,12 @@
   * for Kerbal Space Program
 
 * Issues
+  * closes #13 - 2.0.0.0-release
+  * updates #7 - Archival Releases
 
 * Last released by DECQ and Dragon01
 * From BobCat Industries Soviet Pack
+
 ---
 
 ## Version 1.9.1.1-release `<Archival>` edition
@@ -62,16 +59,19 @@
   * for Kerbal Space Program
 
 * Issues
+  * closes #12 - 1.9.1.1-release
+  * updates #7 - Archival Releases
 
 ---
 
 ## Version 1.0.0.0-release `<Archival>` edition
 
 * Released
-  * 
-  * for Kerbal Space Program
-  * by BobCat
+  * 06 Nov 2014
+  * for Kerbal Space Program 0.23.5
+  * by BobCat and CrashBurn
 
 * Issues
+  * updates #7 - Archival Releases
 
 ---
