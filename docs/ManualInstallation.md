@@ -4,19 +4,25 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
-<!-- ManualInstallation.md v1.1.8.1
+<!-- ManualInstallation.md v1.0.0.0
 Протон (Proton)
-created: 01 Oct 2019
-updated: 29 Jul 2022 -->
+created:01 May 2023
+updated:
 
-<!-- based upon work by Lisias -->
+TEMPLATE: ManualInstallation.md v1.1.9.1
+created: 01 Feb 2022
+updated: 26 Apr 2023
 
-# Протон (Proton)
+based upon work by Lisias -->
+
+<script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
+<i class="fa-solid fa-helmet-safety fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #FF8200" ></i>
+
+## [Протон (Proton)][mod]
 
 [Home](./index.md)
 
-The Soviet Space Station MIR for Kerbal Space Program.
+Soviet Протон (Proton) expendable launch system
 
 ## Installation Instructions
 
@@ -52,8 +58,16 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 <KSP_ROOT>
   + [GameData]
     + [BobCat]
+    + [BobCatInd][BOB]
+      + [Agencies]
+        ...
+      + [Flags]
+        ...
+      + [Localization]
+        ...
+      ...
       + [SovietPack]
-        + [Proton]
+        + [Proton][mod]
           + [Assets]
             ...
           + [Compatibility]
@@ -84,4 +98,10 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
 ### Dependencies
 
-* [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+* [BobCat Industries (BOB)][BOB]
+
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal
+  used with express permission from zer0Kerbal
+
+[BOB]: https://www.curseforge.com/kerbal/ksp-mods/BobCatInd "BobCat Industries (BOB)"
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/Proton "Протон (Proton)"
