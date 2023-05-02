@@ -76,8 +76,7 @@ Most recent releases only available via CurseForge/OverWolf Website/App
 ### Dependencies
 
 * [BobCat Industries (BOB)][BOB]
-* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][SHD:ksp]][KSP:url]
-
+* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
 
 ### Recommends
 
@@ -132,7 +131,6 @@ Most recent releases only available via CurseForge/OverWolf Website/App
 ### Supports
 
 * [ModularManagement (MM)][MM] or [Module Manager][m-m]
-* [Firespitter][fs] for fuel and mesh switching. may invoke bouts of dizziness.
 
 ### Tags
 
