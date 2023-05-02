@@ -57,9 +57,9 @@
 ### Status 4.0.98.2
 
 * Issues
-  * closes #35 - Proton (PROTON) 4.0.98.0-alpha `<Alpha 0>`
-  * closes #36 - Proton (PROTON) 4.0.98.1-alpha `<Alpha 1>`
-  * closes #40 - Proton (PROTON) 4.0.98.2-beta `<Beta 0>`
+  * closes #35 - Протон (Proton) 4.0.98.0-alpha `<Alpha 0>`
+  * closes #36 - Протон (Proton) 4.0.98.1-alpha `<Alpha 1>`
+  * closes #40 - Протон (Proton) 4.0.98.2-beta `<Beta 0>`
 
 ---
 
