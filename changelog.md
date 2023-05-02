@@ -68,9 +68,9 @@
 ## Version 1.0.0.0-release `<Archival>` edition
 
 * Released
-  * 
-  * for Kerbal Space Program
-  * by BobCat
+  * 06 Nov 2014
+  * for Kerbal Space Program 0.23.5
+  * by BobCat and CrashBurn
 
 * Issues
 
