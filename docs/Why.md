@@ -4,14 +4,18 @@ title: Why
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: fourty-two,42,6x7,6times7,6*7,why,why-not,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
-<!-- Why.md v1.1.0.1
+<!-- Why.md  v1.0.0.0
 Протон (Proton)
-created: 01 Apr 2019
-updated: 
--->
+created:
+updated:
 
-# Протон (Proton)
+TEMPLATE: Why-not.md v1.1.1.0
+created: 01 Apr 2019
+updated: 29 Apr 2023 -->
+
+## [Протон (Proton)][mod]
+
+[Home](/index.md)
 
 [Home](/index.md)
 
@@ -25,6 +29,7 @@ updated:
 
 **Edited April 1st, 2022 by [zer0Kerbal][zer0Kerbal]**
 
-[zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal
+  used with express permission from zer0Kerbal
 
-<!-- THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/Proton "Протон (Proton)"
