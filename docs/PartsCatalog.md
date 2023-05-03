@@ -30,6 +30,15 @@ This add-on adds parts parts designed to recreate the [Протон (Proton)][mo
 
   <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/Proton-core_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
 
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-decoupler-payload_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-decoupler-stage-one_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-decoupler-stage-two_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-fairing_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-stage-core_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-stage-three_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-stage-two_icon.png"
+"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-booster-retro_icon.png"
+
 [top](#parts-catalog)
 
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal
