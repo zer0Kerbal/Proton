@@ -29,10 +29,12 @@
 * 1.0.0.0-release
 * closes #7 - Archival Releases
 8.5mb --> 1.95mb --> 2.83mb
-model000--> proton00
-model001 --> proton01
-model000 --> proton10
-model001 --> proton11
+* Stages
+  * model000--> proton00
+  * model001 --> proton01
+* Bits
+  * model000 --> proton10
+  * model001 --> proton11
 
 * Issues
 
