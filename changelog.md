@@ -8,7 +8,7 @@
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/Proton)                 |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/Proton)               |
 
-## Version 3.9.99.0-release `<Thank you BobCat, CrashBurn, DECQ, and Dragon01>` edition
+## Version 3.9.99.0-release `<Thank you BobCat, CrashnBurn, DECQ, and Dragon01>` edition
 
 * Released
   * 02 May 2023
@@ -36,7 +36,22 @@
   * model000 --> proton10
   * model001 --> proton11
 
+  * closes #34 - Part Tags
+  * closes #33 - Part Localization
+
+  * closes #16 - English <en-us.cfg>
+  * closes #15 - Localization - Master
+  * closes #10 - Create <Proton.cfg>
+  * closes #9 - Part Asset Updates
+  * closes #8 - Create Localization directory and contents
+  * closes #6 - Create HeroLogo.png
+  * closes #5 - Create GitHub Pages
+
 * Issues
+  * closes #1 - Протон (PROTON) 3.9.99.0-adoption `<Thank you BobCat, CrashnBurn, DECQ, and Dragon01>` edition
+  * closes #2 - 1.1.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 1.1.99.0 Create Documentation
+  * closes #4 - 1.1.99.0 Create Social Media Presence
 
 ---
 
