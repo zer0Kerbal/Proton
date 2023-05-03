@@ -40,8 +40,10 @@
 ## Version 2.0.0.0-release `<Archival>` edition
 
 * Released
-  * 
-  * for Kerbal Space Program
+  * ?
+  * for Kerbal Space Program 1.0.0.0?
+
+* no changelog
 
 * Issues
   * closes #13 - 2.0.0.0-release
