@@ -29,6 +29,11 @@
 * 1.0.0.0-release
 * closes #7 - Archival Releases
 
+model000--> proton00
+model001 --> proton01
+model000 --> proton10
+model001 --> proton11
+
 * Issues
 
 ---
