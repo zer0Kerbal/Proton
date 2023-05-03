@@ -8,11 +8,18 @@
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/Proton)                 |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/Proton)               |
 
-## Version 3.9.99.0-release `<Thank you BobCat, DECQ, and Dragon01>` edition
+## Version 3.9.99.0-release `<Thank you BobCat, CrashBurn, DECQ, and Dragon01>` edition
 
 * Released
-  * 
-  * for Kerbal Space Program
+  * 02 May 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* 📌 Pinned
+  * Dependencies:
+    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+## Adopted by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 ### Archival Releases
 
@@ -20,6 +27,7 @@
 * 2.0.0.0-release
 * 1.9.1.1-release
 * 1.0.0.0-release
+* closes #7 - Archival Releases
 
 * Issues
 
@@ -33,6 +41,7 @@
   * by BobCat, CrashnBurn, DECQ, Dragon01, and MacLucky
   * maintenance by krakra23 and albertovillalobo
 
+* no changelog
 
 * Issues
   * closes #14 - 3.0.0.0-release
