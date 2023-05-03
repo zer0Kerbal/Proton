@@ -25,11 +25,14 @@
 
 ---
 
-## Version 2.2.0.0-release `<Archival>` edition
+## Version 3.0.0.0-release `<Archival>` edition
 
 * Released
-  * 31 May 2016
-  * for Kerbal Space Program
+  * 26 Feb 2019
+  * for Kerbal Space Program 1.6.1
+  * by BobCat, CrashnBurn, DECQ, Dragon01, and MacLucky
+  * maintenance by krakra23 and albertovillalobo
+
 
 * Issues
   * closes #14 - 3.0.0.0-release
