@@ -1,0 +1,46 @@
+{
+	"NAME"			 : "Протон (Proton), part of BobCat Industries Soviet Pack",
+	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/Proton/master/Proton.version",
+	"DOWNLOAD"		 : "https://github.com/zer0Kerbal/Proton/releases/latest",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/Proton/master/changelog.md",
+	"GITHUB" :
+	{
+		"USERNAME"	        : "zer0Kerbal",
+		"REPOSITORY"		: "Proton",
+		"ALLOW_PRE_RELEASE" : false
+	},
+	"VERSION" :
+	{
+		"MAJOR" : 2,
+		"MINOR" : 0,
+		"PATCH" : 0,
+		"BUILD" : 0
+	},
+	"KSP_VERSION" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 0,
+		"PATCH" : 0
+	},
+	"KSP_VERSION_MIN" :
+	{
+		"MAJOR" : 0,
+		"MINOR" : 90,
+		"PATCH" : 0
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME" :	  "Proton",
+		"DIRECTORY" : "BobCat/SovietPack/Proton"
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME"      : "Ships",
+		"DIRECTORY" : "Ships"
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME" :	  "Subassemblies",
+		"DIRECTORY" : "Subassemblies"
+	}
+}
