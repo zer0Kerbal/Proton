@@ -37,10 +37,10 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 3.0.0.0-release `<Archival>` edition
+## Version 2.2.0.0-release `<Archival>` edition
 
 * Released
-  * 
+  * 31 May 2016
   * for Kerbal Space Program
 
 * Issues
@@ -67,8 +67,11 @@ CC BY-ND 4.0 by zer0Kerbal
 ## Version 1.9.1.1-release `<Archival>` edition
 
 * Released
-  * 
-  * for Kerbal Space Program
+  * ?
+  * for Kerbal Space Program ?
+
+* parts renamed (internally) and things moved around and more.
+* no changelog
 
 * Issues
   * closes #12 - 1.9.1.1-release
@@ -83,8 +86,10 @@ CC BY-ND 4.0 by zer0Kerbal
   * for Kerbal Space Program 0.23.5
   * by BobCat and CrashBurn
 
+* no changelog
+
 * Issues
+  * closes #11 - 1.0.0.0-release
   * updates #7 - Archival Releases
 
----
-
+---
