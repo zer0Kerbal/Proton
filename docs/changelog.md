@@ -20,11 +20,18 @@ CC BY-ND 4.0 by zer0Kerbal
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/Proton)                 |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/Proton)               |
 
-## Version 3.9.99.0-release `<Thank you BobCat, DECQ, and Dragon01>` edition
+## Version 3.9.99.0-release `<Thank you BobCat, CrashnBurn, DECQ, and Dragon01>` edition
 
 * Released
-  * 
-  * for Kerbal Space Program
+  * 02 May 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* 📌 Pinned
+  * Dependencies:
+    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+## Adopted by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 ### Archival Releases
 
@@ -32,8 +39,31 @@ CC BY-ND 4.0 by zer0Kerbal
 * 2.0.0.0-release
 * 1.9.1.1-release
 * 1.0.0.0-release
+* closes #7 - Archival Releases
+8.5mb --> 1.95mb --> 2.83mb
+* Stages
+  * model000--> proton00
+  * model001 --> proton01
+* Bits
+  * model000 --> proton10
+  * model001 --> proton11
+
+  * closes #34 - Part Tags
+  * closes #33 - Part Localization
+
+  * closes #16 - English <en-us.cfg>
+  * closes #15 - Localization - Master
+  * closes #10 - Create <Proton.cfg>
+  * closes #9 - Part Asset Updates
+  * closes #8 - Create Localization directory and contents
+  * closes #6 - Create HeroLogo.png
+  * closes #5 - Create GitHub Pages
 
 * Issues
+  * closes #1 - Протон (PROTON) 3.9.99.0-adoption `<Thank you BobCat, CrashnBurn, DECQ, and Dragon01>` edition
+  * closes #2 - 1.1.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 1.1.99.0 Create Documentation
+  * closes #4 - 1.1.99.0 Create Social Media Presence
 
 ---
 
@@ -45,6 +75,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * by BobCat, CrashnBurn, DECQ, Dragon01, and MacLucky
   * maintenance by krakra23 and albertovillalobo
 
+* no changelog
 
 * Issues
   * closes #14 - 3.0.0.0-release
