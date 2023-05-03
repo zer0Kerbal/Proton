@@ -56,7 +56,7 @@
 
 * Released
   * 
-  * for Kerbal Space Program
+  * for Kerbal Space Program 1.2.2
 
 * Issues
   * closes #12 - 1.9.1.1-release
