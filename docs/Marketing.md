@@ -33,7 +33,7 @@ this file:
 
 ### Hero 01
 
-<img src="https://github.com/zer0Kerbal/Proton/blob/master/doc/Marketing/Hero-01.jpg" alt="Протон (Proton)" width="100%" height="100%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/Marketing/HERO-01.png" alt="Протон (Proton)" width="100%" height="100%">
 
 [top](#marketing-slicks)
 
