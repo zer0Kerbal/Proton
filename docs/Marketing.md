@@ -6,6 +6,7 @@ tags: marketing,pr,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 <!-- Marketing.md v1.0.0.0
 Протон (Proton)
+created: 01 May 2023
 updated: 
 
 TEMPLATE: Marketing.md v1.0.3.0
@@ -28,11 +29,11 @@ this file:
 ## Marketing Slicks
 <!-- no toc -->
 * Table of Contents
-  * [Family Photo](#family-photo)
+  * [Hero 01](#hero-01)
 
-### Family Photo
+### Hero 01
 
-<img src="https://github.com/zer0Kerbal/Proton/blob/master/img/Hero-01.jpg?raw=true" alt="Fuel Tanks Plus" width="100%" height="100%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/Marketing/HERO-01.png" alt="Протон (Proton)" width="100%" height="100%">
 
 [top](#marketing-slicks)
 

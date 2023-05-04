@@ -22,22 +22,34 @@ updated: 01 May 2023 -->
 
 ## Parts Catalog
 
-This add-on adds parts parts designed to recreate the [Протон (Proton)][mod] launch system
+This add-on parts parts pack designed to recreate the [Протон (Proton)][mod] launch system
 
 <!-- no toc -->
-* Proton
-* SurveyStake
+* decoupler
+  * stage one
+  * stage two
+  * payload
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/Proton-core_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-decoupler-stage-one_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-decoupler-stage-two_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-decoupler-payload_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
 
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-decoupler-payload_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-decoupler-stage-one_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-decoupler-stage-two_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-fairing_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-stage-core_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-stage-three_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-stage-two_icon.png"
-"Q:\KSPDev\BobCat\Repo\Proton\docs\thumbs\proton-booster-retro_icon.png"
+* fairing (half)
+
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-fairing_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+
+* stage
+  * core
+  * two
+  * three
+
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-stage-core_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-stage-two_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-stage-three_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
+
+* retro booster
+
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/Proton/master/docs/thumbs/proton-booster-retro_icon.png" alt="Протон (Proton)" width="25%" height="25%" />
 
 [top](#parts-catalog)
 
