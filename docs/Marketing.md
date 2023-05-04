@@ -28,11 +28,11 @@ this file:
 ## Marketing Slicks
 <!-- no toc -->
 * Table of Contents
-  * [Family Photo](#family-photo)
+  * [Hero 01](#hero-01)
 
-### Family Photo
+### Hero 01
 
-<img src="https://github.com/zer0Kerbal/Proton/blob/master/img/Hero-01.jpg?raw=true" alt="Fuel Tanks Plus" width="100%" height="100%">
+<img src="https://github.com/zer0Kerbal/Proton/blob/master/doc/Marketing/Hero-01.jpg?raw=true" alt="Fuel Tanks Plus" width="100%" height="100%">
 
 [top](#marketing-slicks)
 
