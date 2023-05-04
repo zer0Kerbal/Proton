@@ -1,76 +1,76 @@
-ship = Proton
-version = 4.0.0.0
-description = Протон by BobCat, DECQ, Dragon01 and zer0Kerbal
+ship = Протон (Proton)
+version = 1.12.0
+description = Протон rocket by BobCat, CrashnBurn, DECQ, Dragon01 and zer0Kerbal
 type = VAB
 PART
 {
-	part = proton-decoupler-payload_4294455322
+	part = proton-decoupler-payload_4294643652
 	partName = Part
-	pos = 0.5448216,28.03351,-5.99184
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 1
-	dstg = 1
-	sidx = 0
-	sqor = 1
-	attm = 0
-	link = proton-stage-three_4294388074
-	link = proton-fairing_4294333944
-	link = proton-fairing_4294454482
-	attN = bottom,proton-stage-three_4294388074
-	attN = R,proton-fairing_4294454482
-	attN = L,proton-fairing_4294333944
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		isDecoupled = False
-		EVENTS
-		{
-			Decouple
-			{
-				active = True
-				guiActive = True
-				guiIcon = Decouple
-				guiName = Decouple
-				category = Decouple
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = proton-stage-three_4294388074
-	partName = Part
-	pos = 0.5448216,25.66351,-5.99184
+	pos = -0.01544503,26.04477,11.21755
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
-	dstg = 2
+	dstg = 3
 	sidx = 0
 	sqor = 2
 	attm = 0
-	link = proton-decoupler-stage-two_4294380986
-	attN = top,proton-decoupler-payload_4294455322
-	attN = bottom,proton-decoupler-stage-two_4294380986
+	link = proton-stage-three_4294636736
+	link = proton-fairing_4294621394
+	link = proton-fairing_4294621106
+	attN = bottom,proton-stage-three_4294636736
+	attN = R,Proton payload_4294621394
+	attN = L,Proton payload_4294621106
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = proton-stage-three_4294636736
+	partName = Part
+	pos = -0.01544503,23.67477,11.21755
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 3
+	dstg = 4
+	sidx = 0
+	sqor = 3
+	attm = 0
+	link = proton-decoupler-stage-two_4294642638
+	attN = top,proton-decoupler-payload_4294643652
+	attN = bottom,proton-decoupler-stage-two_4294642638
 	EVENTS
 	{
 	}
@@ -81,20 +81,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -147,7 +138,6 @@ PART
 			{
 				active = True
 				guiActive = True
-				guiActiveEditor = True
 				guiIcon = Lock Gimbal
 				guiName = Lock Gimbal
 				category = Lock Gimbal
@@ -159,7 +149,6 @@ PART
 			{
 				active = False
 				guiActive = True
-				guiActiveEditor = True
 				guiIcon = Free Gimbal
 				guiName = Free Gimbal
 				category = Free Gimbal
@@ -187,53 +176,23 @@ PART
 		{
 		}
 	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 500
-		maxAmount = 500
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 611
-		maxAmount = 611
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = proton-decoupler-stage-two_4294380986
+	part = proton-decoupler-stage-two_4294642638
 	partName = Part
-	pos = 0.5448216,24.11351,-5.99184
+	pos = -0.01544503,22.12477,11.21755
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 3
-	dstg = 3
+	istg = 4
+	dstg = 5
 	sidx = 0
-	sqor = 3
+	sqor = 4
 	attm = 0
-	link = proton-stage-two_4294372398
-	attN = top,proton-stage-three_4294388074
-	attN = bottom,proton-stage-two_4294372398
+	link = proton-stage-two_4294635798
+	attN = top,proton-stage-three_4294636736
+	attN = bottom,proton-stage-two_4294635798
 	EVENTS
 	{
 	}
@@ -270,26 +229,24 @@ PART
 }
 PART
 {
-	part = proton-stage-two_4294372398
+	part = proton-stage-two_4294635798
 	partName = Part
-	pos = 0.5448216,14.61351,-5.99184
+	pos = -0.01544503,12.62477,11.21755
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 5
-	dstg = 4
+	dstg = 6
 	sidx = 0
 	sqor = 5
 	attm = 0
-	link = proton-booster-retro_4294371288
-	link = proton-booster-retro_4294369424
-	link = proton-booster-retro_4294369360
-	link = proton-booster-retro_4294369296
-	link = proton-booster-retro_4294369232
-	link = proton-booster-retro_4294369168
-	link = proton-decoupler-stage-one_4294364452
-	attN = top,proton-decoupler-stage-two_4294380986
-	attN = bottom,proton-decoupler-stage-one_4294364452
+	link = proton-booster-retro_4294635218
+	link = proton-booster-retro_4294634784
+	link = proton-booster-retro_4294634734
+	link = proton-booster-retro_4294634684
+	link = proton-decoupler-stage-one_4294642268
+	attN = top,proton-decoupler-stage-two_4294642638
+	attN = bottom,proton-decoupler-stage-one_4294642268
 	EVENTS
 	{
 	}
@@ -300,20 +257,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -366,7 +314,6 @@ PART
 			{
 				active = True
 				guiActive = True
-				guiActiveEditor = True
 				guiIcon = Lock Gimbal
 				guiName = Lock Gimbal
 				category = Lock Gimbal
@@ -378,7 +325,6 @@ PART
 			{
 				active = False
 				guiActive = True
-				guiActiveEditor = True
 				guiIcon = Free Gimbal
 				guiName = Free Gimbal
 				category = Free Gimbal
@@ -406,56 +352,24 @@ PART
 		{
 		}
 	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 2000
-		maxAmount = 2000
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 2444
-		maxAmount = 2444
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = NaN
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = proton-booster-retro_4294371288
+	part = proton-booster-retro_4294635218
 	partName = Part
-	pos = 0.9297845,20.67724,-7.42854
-	rot = 1.113023E-07,0.9914449,-4.15386E-07,0.1305263
+	pos = -1.470892,20.23335,11.21755
+	rot = 0,0.7071068,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 3
-	dstg = 4
+	istg = 4
+	dstg = 6
 	sidx = 6
-	sqor = 3
+	sqor = 4
 	attm = 1
-	sym = proton-booster-retro_4294369424
-	sym = proton-booster-retro_4294369360
-	sym = proton-booster-retro_4294369296
-	sym = proton-booster-retro_4294369232
-	sym = proton-booster-retro_4294369168
-	srfN = srfAttach,proton-stage-two_4294372398
+	sym = proton-booster-retro_4294634784
+	sym = proton-booster-retro_4294634734
+	sym = proton-booster-retro_4294634684
+	srfN = srfAttach,proton-stage-two_4294635798
 	EVENTS
 	{
 	}
@@ -466,20 +380,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -521,226 +426,24 @@ PART
 			}
 		}
 	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = proton-booster-retro_4294369424
+	part = proton-booster-retro_4294634784
 	partName = Part
-	pos = -0.5069161,20.67724,-7.043578
-	rot = -1.113024E-07,0.9238796,-4.15386E-07,-0.3826834
+	pos = -0.01544503,20.23335,12.673
+	rot = 0,0,0,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 3
-	dstg = 4
-	sidx = 1
-	sqor = 3
-	attm = 1
-	sym = proton-booster-retro_4294371288
-	sym = proton-booster-retro_4294369360
-	sym = proton-booster-retro_4294369296
-	sym = proton-booster-retro_4294369232
-	sym = proton-booster-retro_4294369168
-	srfN = srfAttach,proton-stage-two_4294372398
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleEngines
-		isEnabled = True
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Engine
-				guiName = Activate Engine
-				category = Activate Engine
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = False
-				guiActive = True
-				guiIcon = Shutdown Engine
-				guiName = Shutdown Engine
-				category = Shutdown Engine
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-}
-PART
-{
-	part = proton-booster-retro_4294369360
-	partName = Part
-	pos = -0.8918791,20.67724,-5.606877
-	rot = -3.040837E-07,0.6087615,-3.040836E-07,-0.7933534
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 3
-	dstg = 4
-	sidx = 2
-	sqor = 3
-	attm = 1
-	sym = proton-booster-retro_4294371288
-	sym = proton-booster-retro_4294369424
-	sym = proton-booster-retro_4294369296
-	sym = proton-booster-retro_4294369232
-	sym = proton-booster-retro_4294369168
-	srfN = srfAttach,proton-stage-two_4294372398
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleEngines
-		isEnabled = True
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Engine
-				guiName = Activate Engine
-				category = Activate Engine
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = False
-				guiActive = True
-				guiIcon = Shutdown Engine
-				guiName = Shutdown Engine
-				category = Shutdown Engine
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-}
-PART
-{
-	part = proton-booster-retro_4294369296
-	partName = Part
-	pos = 0.1598587,20.67724,-4.55514
-	rot = -4.15386E-07,0.1305262,-1.113022E-07,-0.9914449
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 3
-	dstg = 4
+	istg = 4
+	dstg = 6
 	sidx = 3
-	sqor = 3
+	sqor = 4
 	attm = 1
-	sym = proton-booster-retro_4294371288
-	sym = proton-booster-retro_4294369424
-	sym = proton-booster-retro_4294369360
-	sym = proton-booster-retro_4294369232
-	sym = proton-booster-retro_4294369168
-	srfN = srfAttach,proton-stage-two_4294372398
+	sym = proton-booster-retro_4294635218
+	sym = proton-booster-retro_4294634734
+	sym = proton-booster-retro_4294634684
+	srfN = srfAttach,proton-stage-two_4294635798
 	EVENTS
 	{
 	}
@@ -751,20 +454,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -806,36 +500,24 @@ PART
 			}
 		}
 	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = proton-booster-retro_4294369232
+	part = proton-booster-retro_4294634734
 	partName = Part
-	pos = 1.59656,20.67724,-4.940102
-	rot = -4.15386E-07,-0.3826835,1.113024E-07,-0.9238796
+	pos = 1.440002,20.23335,11.21755
+	rot = 0,-0.7071069,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 3
-	dstg = 4
+	istg = 4
+	dstg = 6
 	sidx = 4
-	sqor = 3
+	sqor = 4
 	attm = 1
-	sym = proton-booster-retro_4294371288
-	sym = proton-booster-retro_4294369424
-	sym = proton-booster-retro_4294369360
-	sym = proton-booster-retro_4294369296
-	sym = proton-booster-retro_4294369168
-	srfN = srfAttach,proton-stage-two_4294372398
+	sym = proton-booster-retro_4294635218
+	sym = proton-booster-retro_4294634784
+	sym = proton-booster-retro_4294634684
+	srfN = srfAttach,proton-stage-two_4294635798
 	EVENTS
 	{
 	}
@@ -846,20 +528,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -901,36 +574,24 @@ PART
 			}
 		}
 	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = proton-booster-retro_4294369168
+	part = proton-booster-retro_4294634684
 	partName = Part
-	pos = 1.981522,20.67724,-6.376802
-	rot = -3.040836E-07,-0.7933533,3.040837E-07,-0.6087615
+	pos = -0.0154452,20.23335,9.762101
+	rot = 0,-1,0,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 3
-	dstg = 4
+	istg = 4
+	dstg = 6
 	sidx = 5
-	sqor = 3
+	sqor = 4
 	attm = 1
-	sym = proton-booster-retro_4294371288
-	sym = proton-booster-retro_4294369424
-	sym = proton-booster-retro_4294369360
-	sym = proton-booster-retro_4294369296
-	sym = proton-booster-retro_4294369232
-	srfN = srfAttach,proton-stage-two_4294372398
+	sym = proton-booster-retro_4294635218
+	sym = proton-booster-retro_4294634784
+	sym = proton-booster-retro_4294634734
+	srfN = srfAttach,proton-stage-two_4294635798
 	EVENTS
 	{
 	}
@@ -941,20 +602,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -996,33 +648,23 @@ PART
 			}
 		}
 	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = proton-decoupler-stage-one_4294364452
+	part = proton-decoupler-stage-one_4294642268
 	partName = Part
-	pos = 0.5448216,12.56351,-5.99184
+	pos = -0.01544503,10.57477,11.21755
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 6
-	dstg = 5
-	sidx = 0
+	dstg = 7
+	sidx = 2
 	sqor = 6
 	attm = 0
-	link = proton-stage-core_4294352538
-	attN = top,proton-stage-two_4294372398
-	attN = bottom,proton-stage-core_4294352538
+	link = proton-stage-core_4294627516
+	attN = top,proton-stage-two_4294635798
+	attN = bottom,proton-stage-core_4294627516
 	EVENTS
 	{
 	}
@@ -1059,24 +701,24 @@ PART
 }
 PART
 {
-	part = proton-stage-core_4294352538
+	part = proton-stage-core_4294627516
 	partName = Part
-	pos = 0.5448216,7.713511,-5.99184
+	pos = -0.01544503,5.724773,11.21755
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 7
-	dstg = 6
+	dstg = 8
 	sidx = 0
 	sqor = 7
 	attm = 0
-	link = launchClamp1_4294346142
-	link = launchClamp1_4294345938
-	link = launchClamp1_4294345828
-	link = launchClamp1_4294345718
-	link = launchClamp1_4294345608
-	link = launchClamp1_4294345498
-	attN = top,proton-decoupler-stage-one_4294364452
+	link = proton-booster-retro_4294625690
+	link = proton-booster-retro_4294624968
+	link = proton-booster-retro_4294624918
+	link = proton-booster-retro_4294624868
+	link = proton-booster-retro_4294624818
+	link = proton-booster-retro_4294624768
+	attN = top,proton-decoupler-stage-one_4294642268
 	EVENTS
 	{
 	}
@@ -1087,20 +729,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -1153,7 +786,6 @@ PART
 			{
 				active = True
 				guiActive = True
-				guiActiveEditor = True
 				guiIcon = Lock Gimbal
 				guiName = Lock Gimbal
 				category = Lock Gimbal
@@ -1165,7 +797,6 @@ PART
 			{
 				active = False
 				guiActive = True
-				guiActiveEditor = True
 				guiIcon = Free Gimbal
 				guiName = Free Gimbal
 				category = Free Gimbal
@@ -1193,56 +824,26 @@ PART
 		{
 		}
 	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 6600
-		maxAmount = 6600
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 8065
-		maxAmount = 8065
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = NaN
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
-	part = launchClamp1_4294346142
-	partName = Strut
-	pos = -0.5838197,-0.6852837,-7.946704
-	rot = 0,-0.258819,0,-0.9659258
+	part = proton-booster-retro_4294625690
+	partName = Part
+	pos = -1.464375,8.607939,11.21755
+	rot = 0,0.7071068,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 7
-	dstg = 6
-	sidx = 1
-	sqor = 7
+	istg = 6
+	dstg = 8
+	sidx = 7
+	sqor = 6
 	attm = 1
-	sym = launchClamp1_4294345938
-	sym = launchClamp1_4294345828
-	sym = launchClamp1_4294345718
-	sym = launchClamp1_4294345608
-	sym = launchClamp1_4294345498
-	srfN = srfAttach,proton-stage-core_4294352538
+	sym = proton-booster-retro_4294624968
+	sym = proton-booster-retro_4294624918
+	sym = proton-booster-retro_4294624868
+	sym = proton-booster-retro_4294624818
+	sym = proton-booster-retro_4294624768
+	srfN = srfAttach,proton-stage-core_4294627516
 	EVENTS
 	{
 	}
@@ -1251,59 +852,33 @@ PART
 	}
 	MODULE
 	{
-		name = LaunchClamp
+		name = ModuleEngines
 		isEnabled = True
-		scaleFactor = -0.009961583
-		height = -0.02513504
-		towerRot = 0,0.258819,0,-0.9659258
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
 			{
 				active = True
 				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
 			Shutdown
 			{
-				active = True
+				active = False
 				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -1311,15 +886,15 @@ PART
 		}
 		ACTIONS
 		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
+			OnAction
 			{
 				actionGroup = None
 			}
 			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
 			{
 				actionGroup = None
 			}
@@ -1328,23 +903,23 @@ PART
 }
 PART
 {
-	part = launchClamp1_4294345938
-	partName = Strut
-	pos = -1.712461,-0.6852837,-5.99184
-	rot = 0,-0.7071068,0,-0.7071068
+	part = proton-booster-retro_4294624968
+	partName = Part
+	pos = -0.7399102,8.607939,12.47236
+	rot = 0,0.258819,0,-0.9659259
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 7
-	dstg = 6
-	sidx = 2
-	sqor = 7
+	istg = 6
+	dstg = 8
+	sidx = 8
+	sqor = 6
 	attm = 1
-	sym = launchClamp1_4294346142
-	sym = launchClamp1_4294345828
-	sym = launchClamp1_4294345718
-	sym = launchClamp1_4294345608
-	sym = launchClamp1_4294345498
-	srfN = srfAttach,proton-stage-core_4294352538
+	sym = proton-booster-retro_4294625690
+	sym = proton-booster-retro_4294624918
+	sym = proton-booster-retro_4294624868
+	sym = proton-booster-retro_4294624818
+	sym = proton-booster-retro_4294624768
+	srfN = srfAttach,proton-stage-core_4294627516
 	EVENTS
 	{
 	}
@@ -1353,59 +928,33 @@ PART
 	}
 	MODULE
 	{
-		name = LaunchClamp
+		name = ModuleEngines
 		isEnabled = True
-		scaleFactor = -0.009961583
-		height = -0.02513504
-		towerRot = 0,0.7071068,0,-0.7071068
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
 			{
 				active = True
 				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
 			Shutdown
 			{
-				active = True
+				active = False
 				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -1413,15 +962,15 @@ PART
 		}
 		ACTIONS
 		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
+			OnAction
 			{
 				actionGroup = None
 			}
 			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
 			{
 				actionGroup = None
 			}
@@ -1430,477 +979,190 @@ PART
 }
 PART
 {
-	part = launchClamp1_4294345828
-	partName = Strut
-	pos = -0.5838193,-0.6852837,-4.036976
+	part = proton-booster-retro_4294624918
+	partName = Part
+	pos = 0.7090204,8.607939,12.47236
+	rot = 0,-0.2588191,0,-0.9659259
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 8
+	sidx = 3
+	sqor = 6
+	attm = 1
+	sym = proton-booster-retro_4294625690
+	sym = proton-booster-retro_4294624968
+	sym = proton-booster-retro_4294624868
+	sym = proton-booster-retro_4294624818
+	sym = proton-booster-retro_4294624768
+	srfN = srfAttach,proton-stage-core_4294627516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = proton-booster-retro_4294624868
+	partName = Part
+	pos = 1.433485,8.607939,11.21755
+	rot = 0,-0.7071069,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 8
+	sidx = 4
+	sqor = 6
+	attm = 1
+	sym = proton-booster-retro_4294625690
+	sym = proton-booster-retro_4294624968
+	sym = proton-booster-retro_4294624918
+	sym = proton-booster-retro_4294624818
+	sym = proton-booster-retro_4294624768
+	srfN = srfAttach,proton-stage-core_4294627516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = proton-booster-retro_4294624818
+	partName = Part
+	pos = 0.7090201,8.607939,9.962738
 	rot = 0,-0.9659259,0,-0.258819
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 7
-	dstg = 6
-	sidx = 3
-	sqor = 7
-	attm = 1
-	sym = launchClamp1_4294346142
-	sym = launchClamp1_4294345938
-	sym = launchClamp1_4294345718
-	sym = launchClamp1_4294345608
-	sym = launchClamp1_4294345498
-	srfN = srfAttach,proton-stage-core_4294352538
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = -0.009961583
-		height = -0.02513504
-		towerRot = 0,0.9659259,0,-0.258819
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4294345718
-	partName = Strut
-	pos = 1.673463,-0.6852837,-4.036976
-	rot = 0,-0.9659258,0,0.2588191
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 7
-	dstg = 6
-	sidx = 4
-	sqor = 7
-	attm = 1
-	sym = launchClamp1_4294346142
-	sym = launchClamp1_4294345938
-	sym = launchClamp1_4294345828
-	sym = launchClamp1_4294345608
-	sym = launchClamp1_4294345498
-	srfN = srfAttach,proton-stage-core_4294352538
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = -0.009961583
-		height = -0.02513504
-		towerRot = 0,0.9659258,0,0.2588191
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4294345608
-	partName = Strut
-	pos = 2.802104,-0.6852837,-5.99184
-	rot = 0,-0.7071068,0,0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 7
-	dstg = 6
+	istg = 6
+	dstg = 8
 	sidx = 5
-	sqor = 7
+	sqor = 6
 	attm = 1
-	sym = launchClamp1_4294346142
-	sym = launchClamp1_4294345938
-	sym = launchClamp1_4294345828
-	sym = launchClamp1_4294345718
-	sym = launchClamp1_4294345498
-	srfN = srfAttach,proton-stage-core_4294352538
+	sym = proton-booster-retro_4294625690
+	sym = proton-booster-retro_4294624968
+	sym = proton-booster-retro_4294624918
+	sym = proton-booster-retro_4294624868
+	sym = proton-booster-retro_4294624768
+	srfN = srfAttach,proton-stage-core_4294627516
 	EVENTS
 	{
 	}
 	ACTIONS
 	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = -0.009961583
-		height = -0.02513504
-		towerRot = 0,0.7071068,0,0.7071068
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4294345498
-	partName = Strut
-	pos = 1.673463,-0.6852837,-7.946704
-	rot = 0,-0.2588191,0,0.9659258
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 7
-	dstg = 6
-	sidx = 6
-	sqor = 7
-	attm = 1
-	sym = launchClamp1_4294346142
-	sym = launchClamp1_4294345938
-	sym = launchClamp1_4294345828
-	sym = launchClamp1_4294345718
-	sym = launchClamp1_4294345608
-	srfN = srfAttach,proton-stage-core_4294352538
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = LaunchClamp
-		isEnabled = True
-		scaleFactor = -0.009961583
-		height = -0.02513504
-		towerRot = 0,0.2588191,0,0.9659258
-		EVENTS
-		{
-			Release
-			{
-				active = False
-				guiActive = True
-				guiIcon = Release Clamp
-				guiName = Release Clamp
-				category = Release Clamp
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ReleaseClamp
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Generator
-				guiName = Activate Generator
-				category = Activate Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = True
-				guiActive = True
-				guiIcon = Shutdown Generator
-				guiName = Shutdown Generator
-				category = Shutdown Generator
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = proton-fairing_4294333944
-	partName = Part
-	pos = 0.5448216,28.53351,-5.99184
-	rot = 0,1,0,0
-	attRot = 0,0.9999999,0,0
-	mir = 1,1,1
-	istg = 4
-	dstg = 2
-	sidx = 1
-	sqor = 4
-	attm = 0
-	attN = bottom,proton-decoupler-payload_4294455322
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		isDecoupled = False
-		EVENTS
-		{
-			Decouple
-			{
-				active = True
-				guiActive = True
-				guiIcon = Decouple
-				guiName = Decouple
-				category = Decouple
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
 	}
 	MODULE
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -1942,31 +1204,97 @@ PART
 			}
 		}
 	}
-	RESOURCE
+}
+PART
+{
+	part = proton-booster-retro_4294624768
+	partName = Part
+	pos = -0.7399101,8.607939,9.962738
+	rot = 0,-0.9659259,0,0.258819
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 8
+	sidx = 6
+	sqor = 6
+	attm = 1
+	sym = proton-booster-retro_4294625690
+	sym = proton-booster-retro_4294624968
+	sym = proton-booster-retro_4294624918
+	sym = proton-booster-retro_4294624868
+	sym = proton-booster-retro_4294624818
+	srfN = srfAttach,proton-stage-core_4294627516
+	EVENTS
 	{
-		name = SolidFuel
-		amount = 0.03
-		maxAmount = 0.03
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
 	}
 }
 PART
 {
-	part = proton-fairing_4294454482
+	part = proton-fairing_4294621394
 	partName = Part
-	pos = 0.5448216,28.53351,-5.99184
+	pos = -0.01544503,26.54477,11.21755
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 4
-	dstg = 2
-	sidx = 0
-	sqor = 4
+	istg = 6
+	dstg = 4
+	sidx = 1
+	sqor = 6
 	attm = 0
-	attN = bottom,proton-decoupler-payload_4294455322
+	attN = bottom,proton-decoupler-payload_4294643652
 	EVENTS
 	{
 	}
@@ -2004,20 +1332,11 @@ PART
 	{
 		name = ModuleEngines
 		isEnabled = True
-		staged = False
-		flameout = False
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
+		flameout = False
+		staged = False
 		EVENTS
 		{
 			Activate
@@ -2059,14 +1378,102 @@ PART
 			}
 		}
 	}
-	RESOURCE
+}
+PART
+{
+	part = proton-fairing_4294621106
+	partName = Part
+	pos = -0.01544503,26.54477,11.21755
+	rot = 0,1,0,0
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 6
+	dstg = 4
+	sidx = 0
+	sqor = 6
+	attm = 0
+	attN = bottom,proton-decoupler-payload_4294643652
+	EVENTS
 	{
-		name = SolidFuel
-		amount = 0.03
-		maxAmount = 0.03
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
 	}
 }
