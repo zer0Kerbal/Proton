@@ -25,12 +25,12 @@
 
 * Update
 * Lint
-* and so much more
 * DRAG_CUBES
 * Cargo/Inventory
-* Modernize
+* Modernize and add modcons
 * Convert all textures to dds
-* Add modcons to parts
+* updated .Craft part names in VAB/subassembly
+* and so much more
 * Localization
   * English
 
@@ -75,6 +75,16 @@
   * <ghostParts.cfg> v2.0.0.0
   * in order to prevent name changes from breaking compatibility
 * closes #9 - Part Asset Updates
+
+### Parts 3.9.99.0
+
+* [proton-decoupler-payload]
+  * add stackSymmetry = 1
+
+### Craft
+
+* VAB/subassembly
+  * updated part names
 
 ### Compatibility 3.9.99.0
 
