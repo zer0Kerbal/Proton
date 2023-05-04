@@ -78,7 +78,7 @@
 
 ### Parts 3.9.99.0
 
-* [proton-decoupler-payload]
+* [proton-fairing]
   * add stackSymmetry = 1
 
 ### Craft
