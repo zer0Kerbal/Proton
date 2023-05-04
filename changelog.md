@@ -44,37 +44,6 @@
 * 1.0.0.0-release
 * closes #7 - Archival Releases
 
-### docs/
-
-* Add
-  * [`_config.yml`]
-  * [Attribution.md] v1.0.7.1
-  * [ManualInstallation.md] v1.1.8.0
-  * [404.md] v1.0.3.2
-  * [LegalMumboJumbo.md] v1.0.5.1
-  * [Localizations.md] v1.1.7.0
-  * [Marketing.md] v1.0.1.0
-  * [Notices.md] v1.0.1.0
-  * [PartsCatalog.md] v1.1.4.1
-  * [Why.md] v1.1.0.0
-
-### Add localized tags to parts
-
-* Add
-  * [NearFutureRovers.cfg] v1.0.0.0
-    * adds localized tags to parts
-
-### Localization 3.9.99.0
-
-* Create
-  * Localization/
-    * <en-us.cfg>
-    * [readme.md] v2.1.2.0
-    * [quickstart.md] v1.0.1.1
-  * closes #14 - English <us-en.cfg>
-  * closes #30 - Part Localization
-  * updates #13 - Localization - Master
-
 ### Part Asset Updates
 
 * create Assets/ folder
@@ -105,6 +74,7 @@
 * Add
   * <ghostParts.cfg> v2.0.0.0
   * in order to prevent name changes from breaking compatibility
+* closes #9 - Part Asset Updates
 
 ### Compatibility 3.9.99.0
 
@@ -112,6 +82,19 @@
   * <RealismOverhaul.cfg> v3.9.99.0
     * update part names
     * minor linting
+
+### Localization 3.9.99.0
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* closes #16 - English <en-us.cfg>
+* closes #33 - Part Localization
+* closes #34 - Part Tags
+* closes #8 - Create Localization directory and contents
+* updates #15 - Localization - Master
 
 ### Documentation
 
@@ -131,20 +114,14 @@
     * [Why.md] v1.1.0.1
   * HeroLogo.png
   * copy/convert to HeroLogo.jpg
+* Add
+  * [Proton.cfg] v1.0.0.0
+    * adds localized tags to parts
+* closes #5 - Create GitHub Pages
+* closes #6 - Create HeroLogo.png
+* closes #10 - Create <Proton.cfg>
 
 ### Status 3.9.99.0
-
-
-  * closes #34 - Part Tags
-  * closes #33 - Part Localization
-
-  * closes #16 - English <en-us.cfg>
-  * closes #15 - Localization - Master
-  * closes #10 - Create <Proton.cfg>
-  * closes #9 - Part Asset Updates
-  * closes #8 - Create Localization directory and contents
-  * closes #6 - Create HeroLogo.png
-  * closes #5 - Create GitHub Pages
 
 * Issues
   * closes #1 - Протон (PROTON) 3.9.99.0-adoption `<Thank you BobCat, CrashnBurn, DECQ, and Dragon01>` edition
