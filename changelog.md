@@ -21,6 +21,21 @@
 
 ## Adopted by [zer0Kerbal](https://github.com/zer0Kerbal)
 
+### Change Summary 3.9.99.0
+
+* Update
+* Lint
+* and so much more
+* DRAG_CUBES
+* Cargo/Inventory
+* Modernize
+* Convert all textures to dds
+* Add modcons to parts
+* Localization
+  * English
+
+### Changes 3.9.99.0
+
 ### Archival Releases
 
 * 3.0.0.0-release
@@ -28,13 +43,97 @@
 * 1.9.1.1-release
 * 1.0.0.0-release
 * closes #7 - Archival Releases
-8.5mb --> 1.95mb --> 2.83mb
-* Stages
-  * model000--> proton00
-  * model001 --> proton01
-* Bits
-  * model000 --> proton10
-  * model001 --> proton11
+
+### docs/
+
+* Add
+  * [`_config.yml`]
+  * [Attribution.md] v1.0.7.1
+  * [ManualInstallation.md] v1.1.8.0
+  * [404.md] v1.0.3.2
+  * [LegalMumboJumbo.md] v1.0.5.1
+  * [Localizations.md] v1.1.7.0
+  * [Marketing.md] v1.0.1.0
+  * [Notices.md] v1.0.1.0
+  * [PartsCatalog.md] v1.1.4.1
+  * [Why.md] v1.1.0.0
+
+### Add localized tags to parts
+
+* Add
+  * [NearFutureRovers.cfg] v1.0.0.0
+    * adds localized tags to parts
+
+### Localization 3.9.99.0
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+  * closes #14 - English <us-en.cfg>
+  * closes #30 - Part Localization
+  * updates #13 - Localization - Master
+
+### Part Asset Updates
+
+* create Assets/ folder
+* convert
+  * from mesh to MODEL {}
+  * from .mbm/.tga/.png to .dds
+  * 8.5mb --> 1.95mb --> 2.83mb
+* rename
+  * remove space and underscores
+  * models to unique names
+  * textures to unique names
+  * Stages
+    * model000--> proton00
+    * model001 --> proton01
+  * Bits
+    * model000 --> proton10
+    * model001 --> proton11
+* update
+  * model pointers (.png et al to .dds)
+  * model texture pointers to new names
+* relocate
+  * assets to Assets/
+  * part.cfg to Parts/
+* eliminate
+  * duplicate textures
+  * duplicate models
+* rename parts to standardized names (e.g. nrf-)
+* Add
+  * <ghostParts.cfg> v2.0.0.0
+  * in order to prevent name changes from breaking compatibility
+
+### Compatibility 3.9.99.0
+
+* Update
+  * <RealismOverhaul.cfg> v3.9.99.0
+    * update part names
+    * minor linting
+
+### Documentation
+
+* Create
+  * GitHub Pages
+  * docs/
+    * [`_config.yml`]
+    * [404.md] v1.0.3.2
+    * [Assembly.md] v1.0.1.0
+    * [Attribution.md] v1.0.9.0
+    * [LegalMumboJumbo.md] v1.0.6.0
+    * [Localizations.md] v1.1.9.0
+    * [ManualInstallation.md] v1.1.9.1
+    * [Marketing.md] v1.0.3.0
+    * [Notices.md] v1.0.2.0
+    * [PartsCatalog.md] v1.1.4.3
+    * [Why.md] v1.1.0.1
+  * HeroLogo.png
+  * copy/convert to HeroLogo.jpg
+
+### Status 3.9.99.0
+
 
   * closes #34 - Part Tags
   * closes #33 - Part Localization
