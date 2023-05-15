@@ -20,16 +20,44 @@ CC BY-ND 4.0 by zer0Kerbal
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/Proton)                 |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/Proton)               |
 
+* 📌 Pinned
+  * Dependencies:
+    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+## Version 3.9.99.1-prerelease - `<Gracias Fitiales>` edition
+
+* Released
+  * 15 May 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 3.9.99.1
+
+* Add Spanish (Español) Localization
+  * Gracias [Fitiales](https://gitbub.com/Fitiales)
+* improved tags in several parts
+
+### Changes 3.9.99.1
+
+* Localization
+  * Spanish (Español)
+    * Add <es-es.cfg> v1.0.0.0
+    * Gracias [Fitiales](https://gitbub.com/Fitiales)
+* Improved several part tags
+* Issues
+  * closes #43 - Протон (PROTON) 3.9.99.1-prerelease `<Gracias Fitiales>` edition
+  * closes #44 - 3.9.99.1 Additional Tasks
+  * updates #15 - Localization - Master
+  * closes #19 - Spanish (Español) <es-es.cfg>
+
+---
+
 ## Version 3.9.99.0-release `<Thank you BobCat, CrashnBurn, DECQ, and Dragon01>` edition
 
 * Released
   * 02 May 2023
   * for Kerbal Space Program 1.12.5
   * by [zer0Kerbal](https://github.com/zer0Kerbal)
-
-* 📌 Pinned
-  * Dependencies:
-    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 
 ## Adopted by [zer0Kerbal](https://github.com/zer0Kerbal)
 
