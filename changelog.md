@@ -12,6 +12,50 @@
   * Dependencies:
     * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 
+## Version 3.9.99.2-prerelease - `<Спасибо evanisrael>` edition
+
+* Released
+  * 13 Jun 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 3.9.99.2
+
+* Localize
+  * Russian (Русский)
+  * Спасибо [evanisrael](https://github/evanisrael)
+
+#### Localization 3.9.99.2
+
+* Add
+  * Russian (Русский)
+    * [ru.cfg] v1.0.0.0
+    * Спасибо [evanisrael](https://github/evanisrael)
+  Translation guides
+    * [readme-ru.md] v1.0.1.0
+    * [quickstart-ru.md] v1.0.0.0
+    * Спасибо [evanisrael](https://github/evanisrael)
+* Update
+  * [ru.cfg] v1.0.1.0
+  * add header, give credit
+* closes #23 - Russian (Русский) <ru.cfg>
+* updates #15 - Localization - Master
+
+#### Documentation 3.9.99.2
+
+* Update
+  * [readme.md] v3.9.99.2
+  * [Attributions.md] v1.0.2.0
+  * [Localizations.md] v1.0.2.0
+
+#### Status 3.9.99.2
+
+* Issues
+  * closes #46 - Протон (PROTON) 3.9.99.2-prerelease `<Спасибо evanisrael>` edition
+  * closes #47 - 3.9.99.2 Additional Tasks
+
+---
+
 ## Version 3.9.99.1-prerelease - `<Gracias Fitiales>` edition
 
 * Released
