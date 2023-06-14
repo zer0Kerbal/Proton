@@ -1,21 +1,20 @@
-<!-- readme.md v1.9.1.1
+<!-- readme.md v3.9.99.2
 Протон (Proton)
 created: 01 Jun 2014
-updated: 01 May 2023
+updated: 13 Jun 2023
 
-TEMPLATE: readme.md v1.7.2.2
+TEMPLATE: readme.md v1.7.4.0
 created: 17 Jul 2017
-updated: 01 May 2023
+updated: 29 May 2023
 
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+# [Протон (Proton)][CURSFG:url]
 
 [![Протон (Proton)][SHD:mod]][CURSFG:url]  
 [![KSP version][KSP:shd]][KSP:url] [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
 
-# [Протон (Proton)][CURSFG:url]
-
-Soviet Протон (Proton) expendable launch system/delivery vehicle (35 ton LKO)
+Soviet Протон (Proton) expendable launch system/delivery vehicle (35 ton to LKO)
 
 ## By [`zer0Kerbal`][zer0Kerbal], originally by [BobCat][auth-link]
 
@@ -65,7 +64,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 ### Localization
 
 >* ![English][EN] English
->* ![Spanish (Español)][ES] Spanish (Español) - Gracias [Fitiales](https://github.com/Fitiales)
+>* ![Spanish (Español)][ES] Spanish (Español) - Gracias [Fitiales](https://github.com/Fitiales)>* ![Russian (Русский)][RU] Russian (Русский) - спасибо [evanisrael](https://github/evanisrael)
 >* ***your translation here***
 
 ### Installation Directions
@@ -311,6 +310,7 @@ Comment, click, like, share, up-vote, subscribe
 [qstart]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/quickstart.md "Quickstart"
 [EN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png "English"
 [ES]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/ES.png "Español"
+[RU]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/RU.png "Русский"
 
 [curseforge]: https://www.curseforge.com/members/zer0kerbal/projects
 [reddit]: https://www.reddit.com/user/zer0Kerbal
