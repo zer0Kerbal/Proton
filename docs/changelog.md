@@ -24,6 +24,51 @@ CC BY-ND 4.0 by zer0Kerbal
   * Dependencies:
     * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 
+## Version 3.9.99.3-prerelease - `<Merci vijay-varadarajan>` edition
+
+* Released
+  * 21 Oct 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 3.9.99.3
+
+* Localize
+  * French (Français)
+    * Merci [vijay-varadarajan](https://github.com/vijay-varadarajan)
+
+#### Localization 3.9.99.3
+
+* Add
+  * French (Français)
+    * [fr-fr.cfg] v1.0.0.0
+    * Merci [vijay-varadarajan](https://github.com/vijay-varadarajan)
+* Update
+  * add header, give credit
+    * [en-us.cfg] v1.0.0.1
+    * [es-es.cfg] v1.0.1.1
+    * [fr-fr.cfg] v1.0.1.0
+    * [ru.cfg] v1.0.1.1
+* closes #20 - French (Français) <fr-fr.cfg>
+* updates #15 - Localization - Master
+* updates #19 - Spanish (Español) <es-es.cfg>
+* updates #23 - Russian (Русский) <ru.cfg>
+
+#### Documentation 3.9.99.3
+
+* Update
+  * [readme.md] v3.9.99.3
+  * [Attributions.md] v1.0.3.0
+  * [Localizations.md] v1.0.3.0
+
+#### Status 3.9.99.3
+
+* Issues
+  * closes #52 - 3.9.99.3 Additional Tasks
+  * closes #51 - Протон (PROTON) 3.9.99.3-prerelease `<Merci vijay-varadarajan>` edition
+
+---
+
 ## Version 3.9.99.2-prerelease - `<Спасибо evanisrael>` edition
 
 * Released
