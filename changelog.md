@@ -23,18 +23,18 @@
 
 * Localize
   * Russian (Русский)
-  * Спасибо [evanisrael](https://github/evanisrael)
+  * Спасибо [evanisrael](https://github.com/evanisrael)
 
 #### Localization 3.9.99.2
 
 * Add
   * Russian (Русский)
     * [ru.cfg] v1.0.0.0
-    * Спасибо [evanisrael](https://github/evanisrael)
+    * Спасибо [evanisrael](https://github.com/evanisrael)
   Translation guides
     * [readme-ru.md] v1.0.1.0
     * [quickstart-ru.md] v1.0.0.0
-    * Спасибо [evanisrael](https://github/evanisrael)
+    * Спасибо [evanisrael](https://github.com/evanisrael)
 * Update
   * [ru.cfg] v1.0.1.0
   * add header, give credit
