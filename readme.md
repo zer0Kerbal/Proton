@@ -64,7 +64,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 ### Localization
 
 >* ![English][EN] English
->* ![Spanish (Español)][ES] Spanish (Español) - Gracias [Fitiales](https://github.com/Fitiales)>* ![Russian (Русский)][RU] Russian (Русский) - спасибо [evanisrael](https://github/evanisrael)
+>* ![Spanish (Español)][ES] Spanish (Español) - Gracias [Fitiales](https://github.com/Fitiales)>* ![Russian (Русский)][RU] Russian (Русский) - спасибо [evanisrael](https://github.com/evanisrael)
 >* ***your translation here***
 
 ### Installation Directions
