@@ -8,7 +8,7 @@ tags: attributions,thank-you,directions,page,kerbal,ksp,zer0Kerbal,zedK
 Attributions.md v1.0.2.0
 Протон (Proton)
 created: 01 May 2023
-updated: 13 Jun 2023
+updated: 21 Oct 2023
 
 TEMPLATE: Attributions.md v1.0.9.0
 created: 01 Feb 2022
@@ -52,7 +52,8 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 <ul>
   <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png" alt="English" style="zoom:100%;" /> English</li>
-  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/ES.png" alt="Spanish (Español)" style="zoom:100%" > Spanish (Español)</a> ¡Gracias <a href="https://github.com/Fitiales" alt="Fitiales">Fitiales!</a></li>
+  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/ES.png" alt="Spanish (Español)" style="zoom:100%" > Spanish (Español)</a> - gracias <a href="https://github.com/Fitiales" alt="Fitiales">Fitiales!</a></li>
+  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/FR.png" alt="French (Français)" style="zoom:100%" > French (Français)</a> - merci <a href="https://github.com/vijay-varadarajan" alt="French (Français)">vijay-varadarajan!</a></li>
   <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/RU.png" alt="Russian (Русский)" style="zoom:100%;" /> Russian (Русский) - спасибо <a href="https://github.com/evanisrael" alt="evanisrael">evanisrael</a></li>
   <li><small>Additions and corrections welcome!</small></li>
 </ul>
