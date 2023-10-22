@@ -1,7 +1,7 @@
-<!-- readme.md v3.9.99.2
+<!-- readme.md v3.9.99.3
 Протон (Proton)
 created: 01 Jun 2014
-updated: 13 Jun 2023
+updated: 21 Oct 2023
 
 TEMPLATE: readme.md v1.7.4.0
 created: 17 Jul 2017
@@ -63,8 +63,10 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### Localization
 
->* ![English][EN] English
->* ![Spanish (Español)][ES] Spanish (Español) - Gracias [Fitiales](https://github.com/Fitiales)>* ![Russian (Русский)][RU] Russian (Русский) - спасибо [evanisrael](https://github.com/evanisrael)
+>* ![English](https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/EN.png) English
+>* ![Spanish (Español)](https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/ES.png) Spanish (Español) - gracias [Fitiales](https://github.com/Fitiales)
+>* ![French (Français)](https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/FR.png) French (Français) - merci [vijay-varadarajan](https://github.com/vijay-varadarajan)
+>* ![Russian (Русский)](https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/RU.png) Russian (Русский) - спасибо [evanisrael](https://github.com/evanisrael)
 >* ***your translation here***
 
 ### Installation Directions
